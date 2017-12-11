@@ -1,9 +1,13 @@
 html {
-	background-color:;
+	background-color: ;
 }
 
 header {
 	background-color: #000000;
+}
+
+p {
+	margin-bottom: 2%;
 }
 
 #logo {
@@ -12,19 +16,27 @@ header {
 	width: 70%;
 }
 
+#logo-line {
+	padding-top: 1%;
+}
+
 #listen {
 	display: block;
 	width: 40%;
 	float: right;
-	margin: 5% 10% 0 0 ;
+	margin: 8% 10% 0 0 ;
 }
 
 #socialMedia {
-	margin: 5% 0 0 10%;
+	margin: 8% 0 0 10%;
 }
 
 .socialIcons {
 	width: 10%;
+}
+
+nav {
+	margin-top : -1%;
 }
 
 #nav-center ul {
@@ -38,6 +50,19 @@ header {
 
 #nav-center ul li a {
 	display: inline-block;
+}
+
+
+#homeinfo {
+	width: 70%;
+	display: block;
+	margin: auto;
+}
+
+
+#wba {
+	display: block;
+	margin: auto;
 }
 
 .floatleft {
