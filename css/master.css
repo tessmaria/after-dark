@@ -1,3 +1,53 @@
 html {
-	background-color: red;
+	background-color:;
+}
+
+header {
+	background-color: #000000;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+	width: 70%;
+}
+
+#listen {
+	display: block;
+	width: 40%;
+	float: right;
+	margin: 5% 10% 0 0 ;
+}
+
+#socialMedia {
+	margin: 5% 0 0 10%;
+}
+
+.socialIcons {
+	width: 10%;
+}
+
+#nav-center ul {
+	text-align: center;
+}
+
+#nav-center ul li {
+	float: none;
+	display: inline;
+}
+
+#nav-center ul li a {
+	display: inline-block;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+.clear {
+	clear: both;
 }
