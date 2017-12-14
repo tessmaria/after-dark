@@ -11,10 +11,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
 
+
 	<body>
 		<header>
+		<!-- Top Line Header Section -->
 			<div class="container">
-				 <div class="row hide-on-small-only" id="logo-line">
+				 <div class="row hide-on-med-and-down" id="logo-line">
 				      <div class="col s4 black"> 
 				      	<div id="socialMedia">
 				      		<img src="images/facebook.png" class="socialIcons"/>
@@ -31,9 +33,11 @@
 				 </div>
 			</div>
 
-			 <nav>
+
+			<!-- Navigation Bar -->
+			<nav>
 			    <div class="nav-wrapper black">
-			      <a href="#!" class="brand-logo hide-on-med-and-up" id="hidden-logo"> <img src="images/logo1.jpg" class="responsive-img" /> </a>
+			      <a href="#!" class="brand-logo hide-on-large-only" id="hidden-logo"> <img src="images/logo1.jpg" class="responsive-img" /> </a>
 			      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 			      	<div id="nav-center">
 				      <ul class="hide-on-med-and-down">
@@ -62,34 +66,56 @@
 			  </nav>
 		  </header>
 
-		  <main>
 
+
+
+		  <main>
+		  <!-- Image Carousel -->
 				<div class="slider">
 				    <ul class="slides">
 				      <li>
-				        <img src="images/carousel-1.jpg"> <!-- random image -->
-				        <div class="caption center-align">
-				          <h3>This is our big Tagline!</h3>
-				          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-				        </div>
+				        <img src="images/carousel-1.jpg" class="carousel"> <!-- random image -->
 				      </li>
 				      <li>
-				        <img src="images/facebook.png"> <!-- random image -->
-				        <div class="caption left-align">
-				          <h3>Left Aligned Caption</h3>
-				          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-				        </div>
+				        <img src="images/carousel-2.jpg" class="carousel"> <!-- random image -->
 				      </li>
 				      <li>
-				        <img src="images/twitter.png"> <!-- random image -->
-				        <div class="caption right-align">
-				          <h3>Right Aligned Caption</h3>
-				          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-				        </div>
+				        <img src="images/carousel-3.jpg" class="carousel"> <!-- random image -->
 				      </li>
 				    </ul>
-				  </div>
+				</div>
 
+
+				<!-- Cards Section -->
+				<div class="row container" id="card-section">
+					<div class="col s4">
+						<div id="card1">
+							<p class="white-text center-align flow-text card-info"> Every Monday Night </p>
+							<h5 class="white-text center-align flow-text card-info"> MATT THE MILLERS <br> KILKENNY </h5>
+							<p class="white-text center-align flow-text card-info card-end"> 11.30pm til late </p>
+						</div>
+					</div>
+
+					<div class="col s4">
+						<div id="card2">
+							<p class="white-text center-align flow-text card-info"> Every Sunday </p>
+							<h5 class="white-text center-align flow-text card-info"> THE LAURELS <br> CLONDALKIN </h5>
+							<p class="white-text center-align flow-text card-info card-end"> 6.30pm - 8.30pm </p>
+						</div>
+					</div>
+
+					<div class="col s4">
+						<div id="card3">
+							<p class="white-text center-align flow-text card-info"> Every Sunday Night </p>
+							<h5 class="white-text center-align flow-text card-info"> THE BARRACKS <br> CARLOW </h5>
+							<p class="white-text center-align flow-text card-info card-end"> 11.30pm til late </p>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- Home Page Section -->
 				<div class="container">
 					<div id="homepage">
 				  		<h2 class="center-align grey-text text-darken-1"> Home </h2>
@@ -107,6 +133,7 @@
 			</main>
 
 
+			<!-- FOOTER -->
 			<footer class="page-footer black">
 		        <div class="container">
 		            <div class="row">
@@ -124,6 +151,12 @@
 
 		            	<div class="col s12 m4 l4">
 		            		<h5 class="white-text center-align"> Follow Us </h5>
+		            		<div class="center-align">
+			            		<img src="images/facebook.png" class="socialIcons" />
+			            		<img src="images/twitter.png" class="socialIcons" />
+			            		<img src="images/youtube.png" class="socialIcons" />
+		            		</div>
+		            		<img src="images/listen.jpg" id="listenFooter" class="center-align" />
 		            	</div>
 		        	</div>
 

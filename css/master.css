@@ -1,13 +1,7 @@
-html {
-}
-
+/* HEADER SECTION */
 
 header {
 	background-color: #000000;
-}
-
-p {
-	margin-bottom: 2%;
 }
 
 #logo {
@@ -53,31 +47,97 @@ nav {
 }
 
 
+
+/*HOMEPAGE */
+
 #homeinfo {
 	width: 70%;
 	display: block;
 	margin: auto;
 }
 
-.carousel-slider {
-    height: 400px !important;
-    width: 90% !important;
-    margin: auto !important;
+p {
+	margin-bottom: 2%;
 }
+
+.carousel {
+	z-index: -10;
+	position: absolute;
+}
+
+#card-section {
+	margin-top: -10%;
+	position: relative;
+	z-index: 10;
+}
+
+#card1 {
+	width: 90%;
+	background-color: orange;
+	margin: auto;
+	background-image: url(../images/matts.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+#card2 {
+	width: 90%;
+	background-color: orange;
+	margin: auto;
+	background-image: url(../images/laurels.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+#card3 {
+	width: 90%;
+	background-color: orange;
+	margin: auto;
+	background-image: url(../images/barracks.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+.card-info {
+	padding-top: 10%;
+}
+
+.card-end {
+	padding-bottom: 10%;
+}
+
+
+/* FOOTER SECTION */
 
 #wba {
 	display: block;
 	margin: auto;
 }
 
-.floatleft {
-	float: left;
+#listenFooter {
+	width: 40%;
+	display: block;
+	margin: auto;
+	margin-top: 4%;
 }
 
-.floatright {
-	float: right;
-}
+/* CLEARFIX */
 
 .clear {
 	clear: both;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 320px) and (max-width: 996px) {
+
+	#hidden-logo {
+		height: 56px;
+		width: 160px;
+		margin-left: 0%;
+		margin-top: 1%;
+	}
 }
